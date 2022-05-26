@@ -1,0 +1,100 @@
+body{
+    width: 100vw;
+   
+  
+}
+.quiz-container{
+    margin: 0 auto;
+    position: fixed;
+    top:25%;
+    right: 35%;
+    width: 30vw;
+    height: 30vh;
+    background-color: rgb(18, 162, 219);
+    border-radius: 8px;
+
+}
+
+
+.quiz-header{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 100%;
+   height: 20%;
+   background-color: rgb(7, 141, 19);
+   border-radius:9px 8px 0px 0px;
+   
+}
+.qviz-div{
+   
+    height: 66%;
+    width: 100%;
+    
+}
+
+.question1{
+    height: 33%;
+}
+.question1:hover{
+    background-color: aqua;
+}
+.question2{
+    height: 33%;
+}
+.question2:hover{
+    background-color: aqua;
+}
+.question3{
+    height: 33%;
+   
+    
+}
+.question3:hover{
+    background-color: aqua;
+}
+.button{
+    height: 14%;
+    width: 100%;
+    background-color: green;
+}
+.button:hover{
+    background-color: rgb(37, 100, 3);
+}
+.lastPoint{
+    margin: 0 auto;
+    position: fixed;
+    top:25%;
+    right: 35%;
+    width: 30vw;
+   
+    visibility: hidden;
+    
+    background-color: rgb(18, 162, 219);
+    border-radius: 8px;
+    
+}
+.lastPoint button{
+    height: 14%;
+    width: 100%;
+    background-color: rgb(0, 245, 0);
+}
+.lastPoint p{
+
+    display: flex;
+   
+   
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+    font-weight: 400;
+    
+
+}
+.visual{
+    display: flex;
+
+    width: 100%;
+    height: 10%;
+    background-color: white;
+}

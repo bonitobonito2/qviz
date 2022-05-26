@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="quiz-container" id="quiz" >
+        <div class="quiz-header" >
+            <h4 id="question" >Which sentense is correct?</h4>
+        </div>
+        <div class="qviz-div" >
+            <div onclick="checkFunction('checkbox1')" class="question1" >
+              <input id="checkbox1" type="checkbox" >
+              <label for="checkbox1" id="question1">i am 15 years old</label>
+            </div>
+            <div onclick="checkFunction('checkbox2')" class="question2" >
+                <input id="checkbox2"  type="checkbox" >
+              <label for="checkbox2" id="question2">i 15 years old</label>
+
+            </div>
+            <div onclick="checkFunction('checkbox3')" class="question3">
+                <input id="checkbox3" type="checkbox" >
+              <label for="checkbox3" id="question3">i am years old of 15</label>
+
+            </div>
+
+        </div>
+        <button id="btn" class="button" >submit</button>
+    </div>
+
+    <div id="lastPoint" class="lastPoint">
+        <p id="scored" >dsad</p>
+        <div class="visual">
+          <div id="green" class="green"></div>
+          <div id="red" class="red" ></div>
+
+        </div>
+        <button onclick="reset()" >reset</button>
+    </div>
+
+    <script src="/index.js" ></script>
+</body>
+</html>
